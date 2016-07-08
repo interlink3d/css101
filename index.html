@@ -1,0 +1,103 @@
+<!DOCTYPE html> <!-- tells browser what version-->
+<html>
+<head> <!-- header info, styles, meta etc-->
+  <meta charset="UTF-8">  <!-- define alphabet-->
+  <meta name="author" content="Joe Shepherd"> <!-- Define Page author -->
+  <title>Hi there</title> <!--tab title-->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body><!-- displays the page-->
+  <nav>
+    <ul class="top-nav">
+      <li>home</li>
+      <li>about us</li>
+      <li>contact us</li>
+    </ul>
+  </nav>
+
+  <div id="page-id" class="page-class">This is a page</div> <!-- block element-->
+
+  <p>Before the floated stuff</p>
+
+  <article class="left">A</article>
+  <article class="left">B</article>
+  <article class="right">C</article>
+  <article class="right">D</article>
+
+  <p class="floated-p">After the floated stuff</p>
+
+  <form action="">
+    <fieldset>
+      <legend>My name</legend>
+      <label for="first">First Name</label>
+      <input type="text" placeholder="first name" name="first">
+      <input type="email" placeholder="email address">
+      <input type="password">
+      <input type="radio">
+      <input type="checkbox">
+      <input type="range">
+    </fieldset>
+  </form>
+
+  <div class="p-ancestor">
+    <p>I am a direct child of the "p-ancestor" div</p>
+    <div>
+      <p>I am a grandchild of the "p-ancestor" div</p>
+    </div>
+  </div>
+
+  <ul class="top">
+    <li class="block">1</li>
+    <li class="block">2</li>
+    <li class="block">3</li>
+    <li class="block">5</li>
+  </ul>
+
+  <span class="inline">X</span>
+  <span class="inline">Y</span>
+  <span class="inline">Z</span>
+
+  <article class="n-child">
+    <section> A </section>
+    <div> X </div>
+    <div> X </div>
+    <section> B </section>
+    <section> C </section>
+    <section> D </section>
+    <section> E </section>
+  </article>
+
+  <article class="n-type">
+    <section> A </section>
+    <section> B </section>
+    <aside> Aside </aside>
+    <aside> Aside </aside>
+    <aside> Aside </aside>
+    <aside> Aside </aside>
+    <section> C </section>
+    <section> D </section>
+    <section> E </section>
+  </article>
+
+  <article class="first-of-type">
+    <section> A </section>
+    <section> B </section>
+    <aside> Aside 1 </aside>
+    <section> C </section>
+    <section> D </section>
+    <aside> Aside 2 </aside>
+    <section> E </section>
+    <footer>Footer</footer>
+  </article>
+
+  <article class="three">
+    <section> A </section>
+    <section> B </section>
+    <aside> Aside </aside>
+    <section> C </section>
+    <section> D </section>
+    <section> E </section>
+  </article>
+
+</body>
+</html>
